@@ -17,5 +17,5 @@ In order to create a highly useable dataset there are two primary obstacles to o
      * Note that obstacle #1 will need to be addressed ahead of time. 
      * Additional constraints on user inputs will need to addressed here as well. 
      
-#### Daily Updated Database
+### Daily Updated Database
 [today](https://witty-pump-eda.notion.site/c9060f07a02f40b7b29d3d0efdc6b40f?v=f9aacc7b973b487a999b1d3771a80b1d)
