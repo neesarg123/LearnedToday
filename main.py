@@ -16,9 +16,9 @@ headers = {
 
 def make_db_entry():
     main_text = input("What did you learn today? Express your heart ❤\n")
-    topic_h = input("Give your learning a high-level topic (1 word, for example, 'Math')\n")
-    topic_m = input("Now get a little specific, give it a medium-level topic (1-2 words, like 'Linear Algebra')\n")
-    topic_l = input("Finally, a more specific, low-level topic (1-3 words, like 'Vector Multiplication')\n")
+    topic_h = input("\nGive your learning a high-level topic (1 word, for example, 'Math')\n")
+    topic_m = input("\nNow get a little specific, give it a medium-level topic (1-2 words, like 'Linear Algebra')\n")
+    topic_l = input("\nFinally, a more specific, low-level topic (1-3 words, like 'Vector Multiplication')\n")
 
     data = {"parent": {
                 "database_id": NOTION_DATABASE_ID
