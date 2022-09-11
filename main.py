@@ -24,7 +24,7 @@ def make_db_entry():
                 "database_id": NOTION_DATABASE_ID
             },
             "properties": {
-                "Name": {
+                "Learning": {
                   "title": [
                     {
                       "text": {
