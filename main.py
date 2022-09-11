@@ -1,6 +1,7 @@
 import os
 import requests
 from datetime import datetime
+import webbrowser
 
 
 NOTION_API_KEY = os.getenv('NOTION_API_KEY')
@@ -73,9 +74,12 @@ def main():
     while go:
         make_db_entry()
 
-        again = input("Press Enter to create another entry!")
+        again = input("Press Enter to create another entry! Press 1 to go all records! ")
         if again != "":
             go = False
+
+        if again == "1":
+            webbrowser.open(f"https://witty-pump-eda.notion.site/{NOTION_DATABASE_ID}")
 
 
 main()
